@@ -1,0 +1,7 @@
+C:\Users\student\Desktop\practical 3\bin\Debug\practical 3.exe.config
+C:\Users\student\Desktop\practical 3\bin\Debug\practical 3.exe
+C:\Users\student\Desktop\practical 3\bin\Debug\practical 3.pdb
+C:\Users\student\Desktop\practical 3\obj\Debug\practical 3.csproj.AssemblyReference.cache
+C:\Users\student\Desktop\practical 3\obj\Debug\practical 3.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\practical 3\obj\Debug\practical 3.exe
+C:\Users\student\Desktop\practical 3\obj\Debug\practical 3.pdb
