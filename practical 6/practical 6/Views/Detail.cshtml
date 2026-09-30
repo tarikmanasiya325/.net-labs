@@ -1,0 +1,31 @@
+﻿@model Products.Models.Product
+
+@{
+    ViewBag.Title = "Product Details";
+}
+
+<h2>Product Details</h2>
+
+<div class="card" style="max-width: 400px; padding: 15px; border: 1px solid #ccc; border-radius: 4px;">
+    <div class="card-body">
+        <h4 class="card-title">@Model.Name</h4>
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-4">ID:</dt>
+            <dd class="col-sm-8">@Model.Id</dd>
+
+            <dt class="col-sm-4">Description:</dt>
+            <dd class="col-sm-8">@Model.Description</dd>
+
+            <dt class="col-sm-4">Category:</dt>
+            <dd class="col-sm-8">@Model.Category</dd>
+
+            <dt class="col-sm-4">Price:</dt>
+            <dd class="col-sm-8"><strong>₹@Model.Price.ToString("F2")</strong></dd>
+        </dl>
+    </div>
+</div>
+
+<p style="margin-top: 15px;">
+    <a asp-controller="Product" asp-action="Index" class="btn btn-secondary">Back to Catalog</a>
+</p>
