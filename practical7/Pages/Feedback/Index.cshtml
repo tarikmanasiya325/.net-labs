@@ -1,0 +1,76 @@
+@page
+@model practical7.Pages.Feedback.IndexModel
+@{
+    ViewData["Title"] = "Feedback";
+}
+
+<div class="container mt-4">
+    <h1>Feedback</h1>
+    <p>Share your feedback with us.</p>
+
+    <form method="post" class="mb-4">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+        <div class="mb-3">
+            <label asp-for="Feedback.Name" class="form-label"></label>
+            <input asp-for="Feedback.Name" class="form-control" />
+            <span asp-validation-for="Feedback.Name" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Feedback.Email" class="form-label"></label>
+            <input asp-for="Feedback.Email" class="form-control" />
+            <span asp-validation-for="Feedback.Email" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Feedback.Comments" class="form-label"></label>
+            <textarea asp-for="Feedback.Comments" class="form-control" rows="4"></textarea>
+            <span asp-validation-for="Feedback.Comments" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Feedback.Rating" class="form-label"></label>
+            <input asp-for="Feedback.Rating" class="form-control" min="1" max="5" />
+            <span asp-validation-for="Feedback.Rating" class="text-danger"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit Feedback</button>
+    </form>
+
+    <h2>Submitted Feedback</h2>
+    @if (Model.SubmittedFeedback.Count > 0)
+    {
+        <div class="table-responsive">
+            <table class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Comments</th>
+                        <th>Rating</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.SubmittedFeedback)
+                    {
+                        <tr>
+                            <td>@item.Name</td>
+                            <td>@item.Email</td>
+                            <td>@item.Comments</td>
+                            <td>@item.Rating / 5</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+    else
+    {
+        <p>No feedback submitted yet.</p>
+    }
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
