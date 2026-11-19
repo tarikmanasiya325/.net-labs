@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\student\\source\\repos\\practical 8\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0F91C49D-4140-4E4B-90D9-6E5F602A1257}|practical 8.csproj|c:\\users\\student\\source\\repos\\practical 8\\views\\productfeild.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F91C49D-4140-4E4B-90D9-6E5F602A1257}|practical 8.csproj|solutionrelative:views\\productfeild.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F91C49D-4140-4E4B-90D9-6E5F602A1257}|practical 8.csproj|c:\\users\\student\\source\\repos\\practical 8\\views\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F91C49D-4140-4E4B-90D9-6E5F602A1257}|practical 8.csproj|solutionrelative:views\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F91C49D-4140-4E4B-90D9-6E5F602A1257}|practical 8.csproj|c:\\users\\student\\source\\repos\\practical 8\\views\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F91C49D-4140-4E4B-90D9-6E5F602A1257}|practical 8.csproj|solutionrelative:views\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F91C49D-4140-4E4B-90D9-6E5F602A1257}|practical 8.csproj|c:\\users\\student\\source\\repos\\practical 8\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F91C49D-4140-4E4B-90D9-6E5F602A1257}|practical 8.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F91C49D-4140-4E4B-90D9-6E5F602A1257}|practical 8.csproj|c:\\users\\student\\source\\repos\\practical 8\\models\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F91C49D-4140-4E4B-90D9-6E5F602A1257}|practical 8.csproj|solutionrelative:models\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F91C49D-4140-4E4B-90D9-6E5F602A1257}|practical 8.csproj|c:\\users\\student\\source\\repos\\practical 8\\views\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F91C49D-4140-4E4B-90D9-6E5F602A1257}|practical 8.csproj|solutionrelative:views\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F91C49D-4140-4E4B-90D9-6E5F602A1257}|practical 8.csproj|c:\\users\\student\\source\\repos\\practical 8\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F91C49D-4140-4E4B-90D9-6E5F602A1257}|practical 8.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F91C49D-4140-4E4B-90D9-6E5F602A1257}|practical 8.csproj|c:\\users\\student\\source\\repos\\practical 8\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F91C49D-4140-4E4B-90D9-6E5F602A1257}|practical 8.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F91C49D-4140-4E4B-90D9-6E5F602A1257}|practical 8.csproj|c:\\users\\student\\source\\repos\\practical 8\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F91C49D-4140-4E4B-90D9-6E5F602A1257}|practical 8.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "program.cs",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\practical 8\\Models\\program.cs",
+              "RelativeDocumentMoniker": "Models\\program.cs",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\practical 8\\Models\\program.cs",
+              "RelativeToolTip": "Models\\program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAiwCMAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-19T02:54:26.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\practical 8\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\practical 8\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAiwDkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-19T02:53:33.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\practical 8\\Views\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\practical 8\\Views\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-19T02:53:12.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\practical 8\\Views\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\practical 8\\Views\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-19T02:52:21.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\practical 8\\Views\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Create.cshtml",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\practical 8\\Views\\Create.cshtml",
+              "RelativeToolTip": "Views\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-19T02:51:48.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductFeild.cshtml",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\practical 8\\Views\\ProductFeild.cshtml",
+              "RelativeDocumentMoniker": "Views\\ProductFeild.cshtml",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\practical 8\\Views\\ProductFeild.cshtml",
+              "RelativeToolTip": "Views\\ProductFeild.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-19T02:50:55.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\practical 8\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\practical 8\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-19T02:49:14.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\practical 8\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\practical 8\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAIwBgAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-19T02:47:02.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "product.cs",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\practical 8\\Models\\product.cs",
+              "RelativeDocumentMoniker": "Models\\product.cs",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\practical 8\\Models\\product.cs",
+              "RelativeToolTip": "Models\\product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-19T02:46:12.799Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
