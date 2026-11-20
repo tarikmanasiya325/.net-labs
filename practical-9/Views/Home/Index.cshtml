@@ -1,0 +1,88 @@
+﻿@model DashboardViewModel
+@{
+	ViewData["Title"] = "Dashboard";
+}
+<section class="page-heading">
+	<div>
+		<p class="eyebrow">PLACEMENT OVERVIEW · @DateTime.Now.Year</p>
+		<h1>Placement Dashboard</h1>
+		<p class="text-muted">
+			A quick view of student outcomes and hiring
+			activity.
+		</p>
+	</div>
+	<a class="btn btn-primary" asp-controller="Home" asp-action="Report">
+		Open
+		printable report
+	</a>
+</section>
+<section class="metrics-grid" aria-label="Placement summary">
+	<article class="metric-card">
+		<span class="metric-label">Total students</span>
+		<strong class="metric-value">@Model.TotalStudents</strong>
+		<span class="metric-note">In this placement batch</span>
+	</article>
+	<article class="metric-card">
+		<span class="metric-label">Placed students</span>
+		<strong class="metric-value">@Model.PlacedStudents</strong>
+		<span class="metric-note">Confirmed placements</span>
+	</article>
+	<article class="metric-card">
+		<span class="metric-label">Not placed</span>
+		<strong class="metric-value">@Model.NotPlacedStudents</strong>
+<span class="metric-note">Still seeking a placement</span>
+</article>
+<article class="metric-card metric-highlight">
+<span class="metric-label">Placement rate</span>
+
+<strong class="metric-
+value">@Model.PlacementPercentage.ToString("F2")%</strong>
+
+<span class="metric-note">Highest package:
+@Model.HighestPackageLpa.ToString("F2") LPA</span>
+</article>
+</section>
+<section class="content-panel">
+<div class="section-heading">
+<div>
+<p class="eyebrow">STUDENT RECORDS</p>
+<h2>Placement details</h2>
+</div>
+<a class="text-link" asp-controller="Home" asp-action="Companies">View
+company placements <span aria-hidden="true">→</span></a>
+</div>
+<div class="table-responsive">
+<table class="table data-table align-middle">
+<thead>
+<tr>
+<th scope="col">Enrollment no.</th>
+<th scope="col">Student</th>
+<th scope="col">Department</th>
+<th scope="col">Company</th>
+<th scope="col" class="text-end">Package (LPA)</th>
+<th scope="col">Status</th>
+</tr>
+</thead>
+<tbody>
+@foreach (var student in Model.Students)
+{
+<tr>
+<td class="text-nowrap">@student.EnrollmentNo</td>
+<td class="student-name">@student.StudentName</td>
+<td>@student.Department</td>
+<td>@(student.CompanyName ?? "—")</td>
+<td class="text-end">@(student.PackageLpa?.ToString("F2") ?? "—
+
+")</td>
+<td>
+<span class="status-badge @(student.IsPlaced ? "status-placed" :"status-pending")">
+
+@(student.IsPlaced ? "Placed" : "Not placed")
+</span>
+</td>
+</tr>
+}
+</tbody>
+</table>
+</div>
+</section>

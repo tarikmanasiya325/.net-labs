@@ -1,0 +1,49 @@
+﻿@model IReadOnlyList<CompanyPlacementViewModel>
+@{
+ViewData["Title"] = "Companies";
+}
+<section class="page-heading">
+<div>
+<p class="eyebrow">HIRING PARTNERS</p>
+<h1>Company placements</h1>
+<p class="text-muted">Employers, roles, and packages for placed
+students.</p>
+</div>
+
+<a class="btn btn-outline-primary" asp-controller="Home" asp-
+action="Index">Back to dashboard</a>
+
+</section>
+<section class="content-panel">
+<div class="section-heading">
+<div>
+<p class="eyebrow">PLACEMENT RECORDS</p>
+<h2>@Model.Count placements</h2>
+</div>
+</div>
+<div class="table-responsive">
+<table class="table data-table align-middle">
+<thead>
+<tr>
+<th scope="col">Company</th>
+<th scope="col">Student</th>
+<th scope="col">Enrollment no.</th>
+<th scope="col">Job role</th>
+<th scope="col" class="text-end">Package (LPA)</th>
+</tr>
+</thead>
+<tbody>
+@foreach (var placement in Model)
+{
+<tr>
+<td class="student-name">@placement.CompanyName</td>
+						<td>@placement.StudentName</td>
+						<td>@placement.EnrollmentNo</td>
+						<td>@placement.JobRole</td>
+						<td class="text-end">@placement.PackageLpa.ToString("F2")</td>
+					</tr>
+				}
+			</tbody>
+		</table>
+	</div>
+</section>
